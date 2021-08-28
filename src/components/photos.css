@@ -1,0 +1,12 @@
+.photos{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+p{
+  font-size: 30px;
+  text-align: right;
+  margin: 10px;
+  cursor: pointer;
+}
